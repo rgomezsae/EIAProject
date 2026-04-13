@@ -1,0 +1,51 @@
+:root {
+  /* === Primary Accent (NextEra Energy–Inspired) === */
+  --nex-green: #78C239;
+  --nex-blue: #0097DA;
+  --nex-green-dim: #5A9E2B;
+  --nex-blue-dim: #007AB8;
+  --nex-green-muted: rgba(120, 194, 57, 0.15);
+  --nex-blue-muted: rgba(0, 151, 218, 0.15);
+
+  /* === Surfaces (dark-mode-first) === */
+  --surface-900: #0B0F19;
+  --surface-800: #111827;
+  --surface-700: #1E293B;
+  --surface-600: #334155;
+  --surface-500: #475569;
+
+  /* === Text === */
+  --text-primary: #F1F5F9;
+  --text-secondary: #94A3B8;
+  --text-muted: #64748B;
+
+  /* === Status Colors === */
+  --positive: #78C239;
+  --negative: #EF4444;
+  --warning: #F59E0B;
+
+  /* === Chart Series === */
+  --chart-series-1: #78C239;
+  --chart-series-2: #0097DA;
+  --chart-series-3: #A78BFA;
+  --chart-series-4: #F59E0B;
+  --chart-series-5: #EC4899;
+
+  /* === Typography === */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  /* === Layout === */
+  --sidebar-collapsed: 64px;
+  --sidebar-expanded: 240px;
+  --topbar-height: 64px;
+  --content-gutter: 24px;
+  --card-radius: 12px;
+  --card-padding: 24px;
+  --btn-radius: 8px;
+  --badge-radius: 6px;
+
+  /* === Transitions === */
+  --transition-fast: 150ms ease-out;
+  --transition-base: 250ms ease-out;
+}

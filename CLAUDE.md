@@ -5,8 +5,16 @@ automatically every time it starts a session.
 
 ## Project Overview
 
-EIAProject — a new project in early development. Update this section as the
-project takes shape.
+Executive Energy Intelligence Platform — a luxury, dark-mode-first executive
+dashboard for electric utility leadership. Built with React + Tailwind CSS +
+Recharts. See `PROJECT_PLAN.md` for the full specification.
+
+### Quick Start
+
+```bash
+npm install
+npm run dev
+```
 
 ## Security Rules (MANDATORY)
 
@@ -63,9 +71,26 @@ Update this section as the project grows to document the directory layout.
 
 ```
 EIAProject/
-├── .gitignore        # Files git should ignore (security critical)
-├── CLAUDE.md         # Instructions for Claude Code (this file)
-├── README.md         # Project documentation
-├── LICENSE           # MIT License
-└── SECURITY.md       # Security vulnerability reporting
+├── .gitignore              # Files git should ignore (security critical)
+├── CLAUDE.md               # Instructions for Claude Code (this file)
+├── PROJECT_PLAN.md         # Full product specification
+├── README.md               # Project documentation
+├── LICENSE                 # MIT License
+├── SECURITY.md             # Security vulnerability reporting
+├── index.html              # App entry HTML
+├── package.json            # Dependencies and scripts
+├── vite.config.js          # Vite + Tailwind configuration
+└── src/
+    ├── main.jsx            # App entry point (font imports, CSS)
+    ├── App.jsx             # Root component (routing + layout)
+    ├── app.css             # Tailwind imports + design token bridge
+    ├── tokens/
+    │   └── design-tokens.css   # CSS custom properties (colors, spacing, etc.)
+    ├── components/
+    │   ├── layout/         # AppShell, Sidebar, TopBar, ContentArea
+    │   └── ui/             # Card, Button, Badge, DateRangeSelector
+    ├── pages/              # 7 page components (one per dashboard section)
+    ├── hooks/              # useNavigation (state-based routing)
+    ├── constants/          # Navigation item definitions
+    └── data/               # Mock JSON data (added in Phase 2)
 ```

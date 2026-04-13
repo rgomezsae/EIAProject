@@ -1,6 +1,8 @@
-# EIAProject
+# Executive Energy Intelligence Platform
 
-A new project in early development.
+A luxury, dark-mode-first executive dashboard for electric utility leadership.
+Provides instant access to rates, load forecasting, revenue forecasting,
+peer benchmarking, and data center analytics.
 
 ## Getting Started
 
@@ -10,11 +12,27 @@ A new project in early development.
    cd eiaproject
    ```
 
-2. (More setup instructions will be added as the project develops.)
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open the URL shown in your terminal (typically http://localhost:5173).
+
+## Tech Stack
+
+- **React** — UI framework
+- **Tailwind CSS** — Utility-first styling
+- **Recharts** — Charts and data visualization
+- **Lucide React** — Icons
+- **Vite** — Build tool and dev server
 
 ## Security Practices
-
-This project follows these security practices:
 
 - **No secrets in code** — all sensitive values are stored in `.env` files
   which are excluded from version control via `.gitignore`.
