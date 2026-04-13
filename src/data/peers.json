@@ -1,0 +1,43 @@
+{
+  "utilityName": "NextEra Energy",
+  "peerGroup": [
+    { "name": "NextEra Energy", "highlight": true, "avgRate": 10.41, "loadGrowth": 3.2, "revenueGrowth": 5.1, "saidi": 62, "caidi": 88, "customerSat": 8.2, "renewablePct": 32, "forecastAccuracy": 96.5 },
+    { "name": "Duke Energy", "highlight": false, "avgRate": 11.25, "loadGrowth": 1.8, "revenueGrowth": 3.2, "saidi": 78, "caidi": 95, "customerSat": 7.8, "renewablePct": 22, "forecastAccuracy": 94.2 },
+    { "name": "Southern Company", "highlight": false, "avgRate": 11.80, "loadGrowth": 2.1, "revenueGrowth": 3.8, "saidi": 85, "caidi": 102, "customerSat": 7.5, "renewablePct": 18, "forecastAccuracy": 93.8 },
+    { "name": "Dominion Energy", "highlight": false, "avgRate": 12.10, "loadGrowth": 1.5, "revenueGrowth": 2.8, "saidi": 92, "caidi": 110, "customerSat": 7.2, "renewablePct": 20, "forecastAccuracy": 92.5 },
+    { "name": "AEP", "highlight": false, "avgRate": 11.95, "loadGrowth": 0.8, "revenueGrowth": 2.2, "saidi": 105, "caidi": 118, "customerSat": 7.0, "renewablePct": 15, "forecastAccuracy": 91.8 },
+    { "name": "Entergy", "highlight": false, "avgRate": 10.85, "loadGrowth": 2.5, "revenueGrowth": 4.0, "saidi": 95, "caidi": 108, "customerSat": 7.1, "renewablePct": 12, "forecastAccuracy": 93.0 },
+    { "name": "Xcel Energy", "highlight": false, "avgRate": 11.42, "loadGrowth": 1.2, "revenueGrowth": 2.5, "saidi": 68, "caidi": 82, "customerSat": 8.0, "renewablePct": 38, "forecastAccuracy": 95.0 },
+    { "name": "Eversource", "highlight": false, "avgRate": 13.50, "loadGrowth": 0.5, "revenueGrowth": 1.8, "saidi": 72, "caidi": 90, "customerSat": 7.6, "renewablePct": 25, "forecastAccuracy": 94.5 },
+    { "name": "WEC Energy", "highlight": false, "avgRate": 11.15, "loadGrowth": 1.0, "revenueGrowth": 2.0, "saidi": 58, "caidi": 75, "customerSat": 8.4, "renewablePct": 28, "forecastAccuracy": 95.5 },
+    { "name": "CMS Energy", "highlight": false, "avgRate": 11.68, "loadGrowth": 0.9, "revenueGrowth": 2.1, "saidi": 82, "caidi": 98, "customerSat": 7.4, "renewablePct": 24, "forecastAccuracy": 93.2 },
+    { "name": "PPL Corp", "highlight": false, "avgRate": 12.35, "loadGrowth": 0.6, "revenueGrowth": 1.5, "saidi": 88, "caidi": 105, "customerSat": 7.3, "renewablePct": 16, "forecastAccuracy": 92.0 },
+    { "name": "Ameren", "highlight": false, "avgRate": 11.55, "loadGrowth": 1.3, "revenueGrowth": 2.8, "saidi": 98, "caidi": 112, "customerSat": 7.1, "renewablePct": 19, "forecastAccuracy": 93.5 }
+  ],
+  "radarDimensions": [
+    { "dimension": "Avg Rate", "utility": 92, "peerAvg": 68 },
+    { "dimension": "Rate Stability", "utility": 85, "peerAvg": 72 },
+    { "dimension": "Load Growth", "utility": 88, "peerAvg": 55 },
+    { "dimension": "Revenue Growth", "utility": 90, "peerAvg": 60 },
+    { "dimension": "Forecast Accuracy", "utility": 95, "peerAvg": 75 },
+    { "dimension": "Reliability", "utility": 88, "peerAvg": 65 },
+    { "dimension": "Customer Sat", "utility": 82, "peerAvg": 70 },
+    { "dimension": "Renewable Mix", "utility": 78, "peerAvg": 62 }
+  ],
+  "quarterly": [
+    { "quarter": "Q1 2024", "utilityScore": 82, "peerAvgScore": 68 },
+    { "quarter": "Q2 2024", "utilityScore": 84, "peerAvgScore": 69 },
+    { "quarter": "Q3 2024", "utilityScore": 85, "peerAvgScore": 70 },
+    { "quarter": "Q4 2024", "utilityScore": 86, "peerAvgScore": 70 },
+    { "quarter": "Q1 2025", "utilityScore": 87, "peerAvgScore": 71 },
+    { "quarter": "Q2 2025", "utilityScore": 88, "peerAvgScore": 71 },
+    { "quarter": "Q3 2025", "utilityScore": 89, "peerAvgScore": 72 },
+    { "quarter": "Q4 2025", "utilityScore": 90, "peerAvgScore": 72 }
+  ],
+  "rankings": {
+    "overall": { "rank": 2, "total": 12, "change": 1 },
+    "ratePercentile": 85,
+    "reliabilityRank": { "rank": 3, "total": 12 },
+    "customerSatRank": { "rank": 3, "total": 12 }
+  }
+}

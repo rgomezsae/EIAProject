@@ -1,0 +1,44 @@
+{
+  "alerts": [
+    {
+      "id": 1,
+      "severity": "positive",
+      "category": "Revenue",
+      "text": "Revenue is tracking 3.2% above forecast YTD",
+      "trend": 3.2,
+      "page": "revenue-forecasting"
+    },
+    {
+      "id": 2,
+      "severity": "warning",
+      "category": "Load",
+      "text": "Summer peak forecast revised upward by 2.8% due to above-normal temperature outlook",
+      "trend": 2.8,
+      "page": "load-forecasting"
+    },
+    {
+      "id": 3,
+      "severity": "positive",
+      "category": "Peers",
+      "text": "Peer ranking improved from #3 to #2 overall — driven by load growth and forecast accuracy",
+      "trend": 1,
+      "page": "peer-comparison"
+    },
+    {
+      "id": 4,
+      "severity": "negative",
+      "category": "Rates",
+      "text": "Industrial rate gap vs peer average widened to 1.2¢/kWh — competitiveness risk",
+      "trend": -1.2,
+      "page": "rates"
+    },
+    {
+      "id": 5,
+      "severity": "positive",
+      "category": "Data Centers",
+      "text": "Data center load now at 13.9% of system — up from 10.5% a year ago, pipeline strong at 420 MW",
+      "trend": 3.4,
+      "page": "data-centers"
+    }
+  ]
+}

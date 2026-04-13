@@ -1,0 +1,49 @@
+{
+  "monthly": [
+    { "period": "2024-01", "actual": 4520, "forecast": 4480, "residential": 1810, "commercial": 1580, "industrial": 980, "other": 150, "peak": 5890, "temperature": 42 },
+    { "period": "2024-02", "actual": 4380, "forecast": 4400, "residential": 1750, "commercial": 1530, "industrial": 960, "other": 140, "peak": 5720, "temperature": 45 },
+    { "period": "2024-03", "actual": 4250, "forecast": 4280, "residential": 1680, "commercial": 1490, "industrial": 940, "other": 140, "peak": 5580, "temperature": 55 },
+    { "period": "2024-04", "actual": 4180, "forecast": 4200, "residential": 1650, "commercial": 1470, "industrial": 920, "other": 140, "peak": 5420, "temperature": 65 },
+    { "period": "2024-05", "actual": 4550, "forecast": 4500, "residential": 1820, "commercial": 1590, "industrial": 990, "other": 150, "peak": 5950, "temperature": 75 },
+    { "period": "2024-06", "actual": 5120, "forecast": 5050, "residential": 2100, "commercial": 1780, "industrial": 1060, "other": 180, "peak": 6800, "temperature": 85 },
+    { "period": "2024-07", "actual": 5580, "forecast": 5500, "residential": 2320, "commercial": 1920, "industrial": 1120, "other": 220, "peak": 7450, "temperature": 92 },
+    { "period": "2024-08", "actual": 5650, "forecast": 5520, "residential": 2350, "commercial": 1940, "industrial": 1130, "other": 230, "peak": 7520, "temperature": 91 },
+    { "period": "2024-09", "actual": 5080, "forecast": 5020, "residential": 2080, "commercial": 1770, "industrial": 1050, "other": 180, "peak": 6720, "temperature": 82 },
+    { "period": "2024-10", "actual": 4420, "forecast": 4450, "residential": 1770, "commercial": 1550, "industrial": 960, "other": 140, "peak": 5800, "temperature": 68 },
+    { "period": "2024-11", "actual": 4350, "forecast": 4320, "residential": 1740, "commercial": 1520, "industrial": 950, "other": 140, "peak": 5680, "temperature": 52 },
+    { "period": "2024-12", "actual": 4580, "forecast": 4550, "residential": 1840, "commercial": 1600, "industrial": 990, "other": 150, "peak": 5980, "temperature": 40 },
+    { "period": "2025-01", "actual": 4650, "forecast": 4600, "residential": 1870, "commercial": 1620, "industrial": 1000, "other": 160, "peak": 6050, "temperature": 38 },
+    { "period": "2025-02", "actual": 4500, "forecast": 4520, "residential": 1800, "commercial": 1570, "industrial": 980, "other": 150, "peak": 5880, "temperature": 43 },
+    { "period": "2025-03", "actual": 4380, "forecast": 4400, "residential": 1730, "commercial": 1530, "industrial": 970, "other": 150, "peak": 5740, "temperature": 53 },
+    { "period": "2025-04", "actual": 4300, "forecast": 4320, "residential": 1700, "commercial": 1510, "industrial": 950, "other": 140, "peak": 5600, "temperature": 63 },
+    { "period": "2025-05", "actual": 4700, "forecast": 4650, "residential": 1880, "commercial": 1640, "industrial": 1020, "other": 160, "peak": 6150, "temperature": 77 },
+    { "period": "2025-06", "actual": 5280, "forecast": 5200, "residential": 2160, "commercial": 1830, "industrial": 1100, "other": 190, "peak": 7020, "temperature": 87 },
+    { "period": "2025-07", "actual": 5750, "forecast": 5680, "residential": 2400, "commercial": 1980, "industrial": 1150, "other": 220, "peak": 7680, "temperature": 94 },
+    { "period": "2025-08", "actual": 5820, "forecast": 5700, "residential": 2430, "commercial": 2000, "industrial": 1160, "other": 230, "peak": 7750, "temperature": 93 },
+    { "period": "2025-09", "actual": 5230, "forecast": 5180, "residential": 2140, "commercial": 1820, "industrial": 1080, "other": 190, "peak": 6920, "temperature": 84 },
+    { "period": "2025-10", "actual": 4550, "forecast": 4580, "residential": 1820, "commercial": 1590, "industrial": 990, "other": 150, "peak": 5960, "temperature": 66 },
+    { "period": "2025-11", "actual": 4480, "forecast": 4450, "residential": 1790, "commercial": 1560, "industrial": 980, "other": 150, "peak": 5850, "temperature": 50 },
+    { "period": "2025-12", "actual": 4720, "forecast": 4680, "residential": 1900, "commercial": 1640, "industrial": 1020, "other": 160, "peak": 6150, "temperature": 38 }
+  ],
+  "daily_forecast": [
+    { "date": "2025-12-26", "forecast": 4680, "low": 4450, "high": 4910, "actual": 4700, "temperature": 36 },
+    { "date": "2025-12-27", "forecast": 4720, "low": 4490, "high": 4950, "actual": 4750, "temperature": 34 },
+    { "date": "2025-12-28", "forecast": 4650, "low": 4420, "high": 4880, "actual": null, "temperature": 38 },
+    { "date": "2025-12-29", "forecast": 4700, "low": 4470, "high": 4930, "actual": null, "temperature": 37 },
+    { "date": "2025-12-30", "forecast": 4780, "low": 4550, "high": 5010, "actual": null, "temperature": 35 },
+    { "date": "2025-12-31", "forecast": 4600, "low": 4370, "high": 4830, "actual": null, "temperature": 40 },
+    { "date": "2026-01-01", "forecast": 4550, "low": 4320, "high": 4780, "actual": null, "temperature": 42 }
+  ],
+  "peak_days": [
+    { "date": "2025-07-22", "peak": 7750, "temperature": 98 },
+    { "date": "2025-08-05", "peak": 7680, "temperature": 97 },
+    { "date": "2025-07-15", "peak": 7620, "temperature": 96 },
+    { "date": "2024-08-12", "peak": 7520, "temperature": 95 },
+    { "date": "2024-07-25", "peak": 7450, "temperature": 94 },
+    { "date": "2025-06-28", "peak": 7350, "temperature": 93 },
+    { "date": "2024-06-30", "peak": 7200, "temperature": 92 },
+    { "date": "2025-09-08", "peak": 7100, "temperature": 91 },
+    { "date": "2024-09-15", "peak": 6950, "temperature": 90 },
+    { "date": "2025-06-15", "peak": 6880, "temperature": 89 }
+  ]
+}
