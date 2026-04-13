@@ -8,6 +8,7 @@ import ChartCard from '../components/ui/ChartCard'
 import ChartTooltip from '../components/ui/ChartTooltip'
 import Badge from '../components/ui/Badge'
 import { useNavigation } from '../hooks/useNavigation'
+import { useDrillDown } from '../hooks/useDrillDown'
 import { CHART_COLORS, CARTESIAN_GRID_PROPS, X_AXIS_PROPS, Y_AXIS_PROPS } from '../constants/chartTheme'
 
 import ratesData from '../data/rates.json'
@@ -71,6 +72,26 @@ const radarData = peersData.radarDimensions.map((d) => ({
 
 export default function ExecutiveSummary() {
   const { navigateTo } = useNavigation()
+  const { openDrillDown } = useDrillDown()
+
+  function drillRevenue() {
+    openDrillDown('Revenue vs Forecast Detail', (
+      <div className="space-y-3">
+        {revenueChart.map((d) => (
+          <div key={d.period} className="flex justify-between items-center py-2 border-b border-surface-600/50">
+            <span className="text-text-secondary text-sm">{d.period}</span>
+            <div className="flex gap-6">
+              <span className="text-sm font-mono text-nex-green">${d.Actual.toFixed(1)}M</span>
+              <span className="text-sm font-mono text-nex-blue">${d.Forecast.toFixed(1)}M</span>
+              <span className={`text-sm font-mono ${d.Actual >= d.Forecast ? 'text-positive' : 'text-negative'}`}>
+                {d.Actual >= d.Forecast ? '+' : ''}{(d.Actual - d.Forecast).toFixed(1)}M
+              </span>
+            </div>
+          </div>
+        ))}
+      </div>
+    ))
+  }
 
   return (
     <>
@@ -83,7 +104,7 @@ export default function ExecutiveSummary() {
       <KPICard label="Data Center Load" value={dcLoad.toLocaleString()} unit="MW" delta={Number(dcData.summary.systemLoadPct.toFixed(1))} deltaSuffix="% of sys" sparklineData={dcSparkline} sparklineColor={CHART_COLORS.pink} />
 
       {/* Row 2 — Revenue vs Forecast + Rate Composition */}
-      <ChartCard title="Revenue vs Forecast (Last 12 Months)" span={8}>
+      <ChartCard title="Revenue vs Forecast (Last 12 Months)" span={8} onDrillDown={drillRevenue} exportData={revenueChart} exportColumns={[{key:'period',label:'Month'},{key:'Actual',label:'Actual $M'},{key:'Forecast',label:'Forecast $M'}]} exportFilename="revenue-vs-forecast.csv">
         <div className="h-64">
           <ResponsiveContainer width="100%" height="100%">
             <AreaChart data={revenueChart}>

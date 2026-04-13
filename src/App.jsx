@@ -1,4 +1,5 @@
 import { NavigationProvider, useNavigation } from './hooks/useNavigation'
+import { DrillDownProvider } from './hooks/useDrillDown'
 import AppShell from './components/layout/AppShell'
 
 import ExecutiveSummary from './pages/ExecutiveSummary'
@@ -28,9 +29,11 @@ function PageRenderer() {
 export default function App() {
   return (
     <NavigationProvider>
-      <AppShell>
-        <PageRenderer />
-      </AppShell>
+      <DrillDownProvider>
+        <AppShell>
+          <PageRenderer />
+        </AppShell>
+      </DrillDownProvider>
     </NavigationProvider>
   )
 }
